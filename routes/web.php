@@ -27,3 +27,7 @@ Route::get('helloworld', function () {
 Route::get('ultan', function () {
     return view('ultan');
 });
+
+Route::get('about', function () {
+    return view('about');
+});
