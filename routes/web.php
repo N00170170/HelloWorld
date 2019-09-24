@@ -31,3 +31,5 @@ Route::get('ultan', function () {
 Route::get('about', function () {
     return view('about');
 });
+
+Route::get('/hello', 'HelloController@hello');
